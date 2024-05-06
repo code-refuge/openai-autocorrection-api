@@ -4,6 +4,8 @@
 
 Este repositório contém uma API falsa de envio de e-mails, desenvolvida para simular o envio de mensagens utilizando a biblioteca OpenAI. Esta API foi criada com o objetivo de demonstrar como integrar a correção automática de ortografia em um chat, inspirado pela série "Bebe Rena" da Netflix.
 
+Para um tutorial detalhado sobre como integrar esta API em seu projeto, confira o vídeo no [YouTube](https://youtu.be/O_n0z51UOes).
+
 ### Como Usar o Projeto
 
 1. **Instalação:**
@@ -40,7 +42,3 @@ Este repositório contém uma API falsa de envio de e-mails, desenvolvida para s
 ### Arquivos Relevantes
 
 - `src/app.ts`: Arquivo principal da API, contendo a lógica para o envio de e-mails simulado utilizando a OpenAI.
-
----
-
-Para um tutorial detalhado sobre como integrar esta API em seu projeto, confira o vídeo no [YouTube](https://youtu.be/O_n0z51UOes).
