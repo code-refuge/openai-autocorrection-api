@@ -26,7 +26,7 @@ Este repositório contém uma API falsa de envio de e-mails, desenvolvida para s
    ```
 
 2. **Iniciando a API:**
-   Após instalar as dependências, você precisará configurar a API key da OpenAI no arquivo `src/app.ts`. Abra o arquivo e localize a linha onde é definida a variável `apiKey`. Substitua o valor existente pela sua chave de API da OpenAI.
+   Após instalar as dependências, você precisará configurar a API key da OpenAI no arquivo `.env`. Abra o arquivo e localize a linha onde é definida a variável `OPENAI_KEY`. Substitua o valor "YOUR_API_KEY_GOES_HERE" pela sua chave de API da OpenAI.
 
 3. **Executando a API:**
    Para iniciar a API, execute o seguinte comando no terminal:

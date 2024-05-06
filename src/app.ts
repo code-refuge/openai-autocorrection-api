@@ -19,7 +19,7 @@ app.get("/api/mail", async (req: Request, res: Response) => {
   // const bodyWithoutHtml = body.replace(/<[^>]*>?/gm, "");
 
   const openai = new OpenAI({
-    apiKey: "sk-proj-JBuSusvnl17ETY1pr1xNT3BlbkFJYYbyPTbwdfTsZdI5zEyz", // This is the default and can be omitted
+    apiKey: process.env.OPENAI_KEY, // This is the default and can be omitted
   });
 
   const chatCompletion = await openai.chat.completions.create({
